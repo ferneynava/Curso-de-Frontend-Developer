@@ -3,3 +3,4 @@
 
 - Anatomia de un documento HTML.
 - HTML semático. 
+- Etiquetas de HTML más usadas.
