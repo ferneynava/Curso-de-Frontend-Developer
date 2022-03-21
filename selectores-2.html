@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p {   /*Todos los p que esten dentro del div */
+            color: #FF6F00;
+        } 
+  
+        
+        div > div { /*Selector hijo directo */
+            background: #FFCA28;
+        }
+
+        .es{
+            background: red;
+        }
+
+        div + section{ /*Selector adyacente*/
+            background: blue;
+        }
+        
+        div ~ p { /*Selector general de hermanos*/
+            color: rebeccapurple;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <div>
+        <p>Platzi</p>
+        <p>Es</p>
+        <p>Increible</p>
+    </div> -->
+
+    <div>
+        <div>
+            <p>Platzi</p>
+            <div class="es">Es</div>
+        </div>
+        
+    </div>
+
+    <p>Clase de selectores</p>
+    
+    
+    <section>
+        Es lo mejor   
+    </section>
+    
+    
+</body>
+</html>
