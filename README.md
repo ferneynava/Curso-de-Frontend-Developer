@@ -8,4 +8,4 @@
     <p>🥇Archivo Selectores-1 => Selectores basicos </p>
     <p>🥈Archivo Selectores-2 => Selectores combinadores </p>
 - pseudoclases y pseudoelementos.
-- Cascada 
+- Cascada y especificidad
