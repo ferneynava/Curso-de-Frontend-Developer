@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header-Portafolio</title>
+    <style>
+        *{
+            font-family: Raleway, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            background-color:#34495E  ; 
+        }
+
+        .Style__Containnerheader{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            z-index: 5;
+            background: rgba(52, 152, 219, 0.01);
+            box-shadow: 0px 0px 10px rgba(6, 33, 51, 0.397);
+            backdrop-filter: blur(10px);
+        }
+
+        .Style__Containnerheader .Commoncomponent__Containner{
+            align-items: center;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            height: 60px;
+        }
+
+        .Commoncomponent__Containner{
+            max-width: 1200px;
+            margin: 0px auto;
+            color: white;
+        }
+
+        .Style__navlist{
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            justify-content: flex-end;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="Style__Containnerheader">
+        <div class="Commoncomponent__Containner">
+            <img src="https://i.ibb.co/0MtybsP/Ferney-Logo.png" alt="Logo" width="150px" height="50px">
+            <nav>
+                <ul class="Style__navlist">
+                    <li>Sobre mi</li>
+                    <li>Portafolio</li>
+                </ul>
+            </nav>
+        </div>
+            
+    </header>
+</body>
+</html> 
+

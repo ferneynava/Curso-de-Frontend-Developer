@@ -11,6 +11,7 @@
 - Cascada y especificidad
 - Block, inline e inline-block
 - Flexbox y cssgrid
+- Practica creación del HEADER portafolio-Flexbox y CSSgrid 
 
 
 ## Contact 📧
