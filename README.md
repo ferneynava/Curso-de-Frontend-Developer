@@ -12,7 +12,7 @@
 - Block, inline e inline-block
 - Flexbox y cssgrid
 - Practica creación del HEADER portafolio-Flexbox y CSSgrid 
-
+![HEADER con flexbox y cssgrid](https://i.ibb.co/xgHDmBj/Captura-de-pantalla-2022-04-10-172020.png)
 
 ## Contact 📧
 
