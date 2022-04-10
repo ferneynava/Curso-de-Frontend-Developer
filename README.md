@@ -9,6 +9,7 @@
     <p>🥈Archivo Selectores-2 => Selectores combinadores </p>
 - pseudoclases y pseudoelementos.
 - Cascada y especificidad
+- Block, inline e inline-block
 - Flexbox y cssgrid
 
 
