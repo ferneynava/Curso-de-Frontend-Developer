@@ -15,6 +15,7 @@
 ![HEADER con flexbox y cssgrid](https://i.ibb.co/xgHDmBj/Captura-de-pantalla-2022-04-10-172020.png)
 - Modelo de caja 
 - Colapso de márgenes 
+- Curso de posicionamiento: Relative, Absolute, fixed, sticky, static, Initial y Inherital
 
 ## Contact 📧
 
