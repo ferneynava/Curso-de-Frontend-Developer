@@ -16,6 +16,7 @@
 - Modelo de caja 
 - Colapso de márgenes 
 - Curso de posicionamiento: Relative, Absolute, fixed, sticky, static, Initial y Inherital
+- practica de posicionamiento 
 
 ## Contact 📧
 
