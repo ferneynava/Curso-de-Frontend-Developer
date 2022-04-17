@@ -17,6 +17,8 @@
 - Colapso de márgenes 
 - Curso de posicionamiento: Relative, Absolute, fixed, sticky, static, Initial y Inherital
 - practica de posicionamiento 
+- Curso de Z-index y el contexto de apilamiento
+
 
 ## Contact 📧
 
