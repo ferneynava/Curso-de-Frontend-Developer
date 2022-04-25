@@ -21,7 +21,7 @@
 - Practica Z-index
 ![Practica Z-index](https://i.ibb.co/DgpD5Pg/Captura-de-pantalla-2022-04-17-144840.png)
 - Curso Propiedades y valores de CSS más usados Card
-![Practica Z-index](https://i.ibb.co/nbr1JYP/Captura-de-pantalla-2022-04-24-201155.png)
+![Practica Z-index](https://i.ibb.co/nbr1JYP/Captura-de-pantalla-2022-04-24-201155.png) 
 
 
 ## Contact 📧
