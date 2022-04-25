@@ -1,2 +1,4 @@
 #Ignorar archivos .pdf 
 *.pdf
+#Ignorar archivos .pdf
+*.png

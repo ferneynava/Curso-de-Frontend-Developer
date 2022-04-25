@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body{
+            background: #004461; 
+        }
+
+        section{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .card{
+            width: 450px;
+            height: 500px;
+            border-radius: 50px;
+            background: #004461;
+            box-shadow:  -17px -17px 34px #001e2b,
+             17px 17px 34px #006a97;
+            margin-top: 100px;
+        }
+
+        .dyi679{
+            display: flex;
+            justify-content: center;
+        }
+        .Fotos{
+            position: relative;
+        }
+
+        .Fotos img{
+            position: absolute;
+        }
+
+        .Fotos hr{
+            position: absolute;
+            background: #FDFEFE;
+            width: 300px;
+            margin-top: 360px;
+        }
+
+        .Fotos .Portada{
+            width: 95%;
+            height: 200px;
+            margin-top: 10px;
+            box-shadow: 2px 4px 10px #212F3D;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+        }
+
+        .Fotos .Perfil{
+            width: 160px;
+            height: 160px;
+            border-radius: 100px;
+            margin: 160px;
+            border: 5px solid #FDFEFE;
+        }
+
+        .Texto .Nombre{
+            margin-top: 328px;
+            font-weight: bold;
+            font-size: 25px;
+            font-family: Raleway, sans-serif;
+            color: #FDFEFE;
+            text-align: center;
+        }
+
+        .Texto .Oficio{
+            font-size: 15px;
+            font-family: Raleway, sans-serif;
+            color: #FDFEFE;
+            text-align: center;
+            margin: 10px;
+        }
+
+        .Texto .Profesión{
+            font-size: 15px;
+            font-family: Raleway, sans-serif;
+            color: #FDFEFE;
+            text-align: center;
+            margin: 10px;
+        }
+        
+        .Container--social{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <div class="Fotos dyi679">
+                <img class="Portada" src="./polygon-scatter-haikei.png" alt="Portada">
+                <img class="Perfil" src="./Fotoconfondo.png" alt="Foto de perfil">
+                <hr>
+            </div>
+
+            <div class="Texto">
+                <p class="Nombre">Ferney Nava</p>
+                <p class="Oficio">📕👨‍🏫Desarrollador y Educador💻📚</p>
+            </div>
+
+            <div class="Container--social">
+                <img src="https://img.icons8.com/fluency/48/000000/linkedin.png" alt="linkedin">
+                <img src="https://img.icons8.com/color/48/000000/gmail--v1.png" alt="Gmail">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAEEUlEQVRoge3ZW4xdUxgH8N+ZGU0ZpS0i6hqXFJU2EUIiRfTNpYg0PLhFaKSJhvIiIvEk8UB4catLxSUkIsFD61Ztg0ZQLYmgg14eDFoznU6HodPxsPbW3W3vffY+Z5+Oh/6TLyc567v8v7XX+va31uYACjE1ko6hUZOfGZiHC3EWZmJaSud3fI+vsQYf4Oea4reESbgRKzGG8YoyJiRxAw7an8S7sQhbWiCdJ5txe+S7ozgXX9ZIPC1f4OxOEG/gLox2kHwso1isvv2pG0/vB+JpWYaedsn34I0JIB/L69rYFw08N4HkY1mqxeW05H9APpbFVcmfI3/DjuFJvCaUv3bJfYdX8HyBzp8qVKdurCtw9mZCt4GLsTYxvg3LhU34YCTLsEJ4G8d670QTlcTHBXE/V3I/LCpwMo6HcpK+TWglioL0CC3H9TnjzardwmbkJ2n+hr2/mZM28HCT2Juk2o6ulIPrcHyTIMfUwTQHM5qMn4hrixRWar7p3mubZj7WtxN/hnJd5U7/fXJ1YGrJ+GM4OjZKEplXktjb2FML5X2xA6tK6HXhkqyBpcplf0oNZPNwQQkO43gqy/iTEoZrOkg+xqYSPD6KlZNLZmYJ52tro5mPdSV0/uXalfhNn2Gz8EsrjCpiZwmd6SLucQKHKtfxTWmRVBUkYwxjAH+ndLrQy17Sh2AX+jE/MoxlMg6O9HZgeydYp8gdnvH/SMRzg/Cy7cVIctaHhVbi22gwa0ltEErYeI2EkzgKfTgsZ3xEmNA/hFWzz5Ftm/CqXoWN+AlbMYRB4Qn1Ci+cgfq5I8z+SYlYvUIyJ0TcTsU9+C02SCbQHymNYTauEB7VkUK2kyO9zZgjLKc6MQuf2btcdwsbekBoMLcIk0nOhdijyh9CVqt3Q5+s2uHokSwnV1dwMC7slfPbJN4QusvtFWNfmeXsCNnN1HBENsvRHryFy+1dYmUwDTfh04rE43Zmep7jdzMMBnAeFgjrPs/xiFAAHsfdOCPhdxbuxTPCOt/dAvFYVhTNzPwco0HhIHORcMAuCrBR2ORpzInGWiUey2VFCXTjxxzDJyKdq4TZztLpx7EF/o8TKkir5PukWv6s9uEWPJvx/66IwKBQbhcIJfavaGwr3sevBQnANcKNWyu4GS80U2oIbXPWDCxpMXDa/1c5/ovkQxVu6M6UfbE1hLk1JHFfRfKjOD3LUd7t7ze4U6goSUwRKs1aYRaHEmNL8UPJBNaX1Itxh1DKK6PZPU1SqjyZuRX8Zl2klUYXXp3ABF5Www1IAw9MQAKP1UE+iYWKPzHVlcAobq2NdQqnyW436kpgtVABO4qG8H24LxV8dgUfc1K2fcL34to+7JVBl9CXLMeLLdi/FNleqjNXlQdwAGXwD86hBqDrpWOPAAAAAElFTkSuQmCC" alt="Github">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
