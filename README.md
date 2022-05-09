@@ -24,6 +24,7 @@
 ![Practica Card](https://i.ibb.co/nbr1JYP/Captura-de-pantalla-2022-04-24-201155.png) 
 - Curso de Unidades de medida. 
 ![Practica Unidades de medida](https://i.ibb.co/DLw0x0H/Captura-de-pantalla-2022-05-01-212553.png) 
+- Curso de Responsive Design.
 
 ## Contact 📧
 
